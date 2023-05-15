@@ -1,0 +1,34 @@
+[
+    {
+      "name": "2048 game",
+      "live": "https://nd2048game.netlify.app/",
+      "git": "https://git.generalassemb.ly/belladigo/2048game",
+      "image": "https://ironyca.files.wordpress.com/2014/03/2048-highscore.jpg"
+    },
+    {
+      "name": "OZZ shipping",
+      "live": "https://ozzshipping.netlify.app/",
+      "git": ["https://github.com/nabiladigo/shipping-backend","https://github.com/nabiladigo/ship-morocco-frontend"],
+      "image": "https://ironyca.files.wordpress.com/2014/03/2048-highscore.jpg"
+    },
+    {
+      "name": "Art Spark",
+      "live": "https://hidden-chamber-68677.herokuapp.com/artwork",
+      "git":  "https://github.com/nabiladigo/reverse-engineer",
+      "image": "https://i.imgur.com/UpVoHZ5.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://app.netlify.app/whatever",
+      "git": "https://github.com/nabiladigo/Project-Wayfarer",
+      "image": "https://i.imgur.com/vegPiz6.png"
+    },
+    {
+      "name": "Hind cake",
+      "live": "https://hind-cake.herokuapp.com/cake",
+      "git": "https://github.com/nabiladigo/cake",
+      "image": "https://i.imgur.com/iP29oZe.jpg"
+    }
+  ]
+
+  
