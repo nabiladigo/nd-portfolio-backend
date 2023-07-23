@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <%- include ('./partials/head.ejs', {page: 'New Project'}) %>
+    <%- include ('./partials/nav.ejs') %>
+
+      <main>
+          <h1>Add project</h1>
+          <form action="/projects" method="POST">
+            <label for="name "> Project name</label>
+            <input type="text" name="name"placeholder="name">
+            <label for=" image"> Project image</label>
+            <input type="text" name="image"placeholder="image">
+            <label for="gitbackend ">gitbackend</label>
+            <input type="text" name="gitbackend"placeholder="gitbackend">
+            <label for="gitfrontend ">gitfrontend</label>
+            <input type="text" name="gitfrontend"placeholder="gitfrontend">
+            <label for=" live"> live</label>
+            <input type="text" name="live"placeholder="live">
+            <button>Create project</button>
+          </form>
+      </main>
+      <%- include ('./partials/footer.ejs') %>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+
+/* Contact page 
+ refrence 
+ https://www.codingnepalweb.com/contact-us-form-in-html-and-css-free/
+*/
+
+ 
+.container1{
+    margin: 60px;
+    background: #CFD1E0;
+    border-radius: 10px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px #1d212b; 
+  }
+  .container1 .row{
+   display: flexbox;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  a, .text-one,.text-two{
+    font-size: 18px;
+    color: #9d8d90;
+  }
+  svg{
+    color:#4b5670 ;
+   width:20px;
+   height: 20px;
+  }
+ .details{
+    text-align: center; 
+  }
+.conta{
+    color: #4b5670;
+  }
+  .btn{
+    background-color: #B4A8AA;
+    color: #4b5670;
+  }
+  label{
+    color: #9d8d90;
+  }
+   
+   @media (max-width: 820px) {
+      .container1{
+        margin: 40px 0;
+        height: 100%;
+      }
+      .container1, .row{
+        flex-direction: column-reverse;
+      }
+     .container1 ,.row, .left{
+       width: 100%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .container1 .content .left::before{
+       display: none;
+     } 
+     .container1 .content .right{
+       width: 100%;
+       margin-left: 0;
+     } 
+    } 
+  
+  /* https://colorpalettes.net/color-palette-4508/ */
+  
+  

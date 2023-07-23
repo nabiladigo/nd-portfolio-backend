@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('./partials/head.ejs', {page: 'My work'}) %>
+    <%- include ('./partials/nav.ejs') %>
+
+<main class="container6">
+    <div id="cardSlideshow" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <% projects.forEach((project, index) => { %>
+            <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+                <div class="card">
+                    <img src="<%= project.image %>" class="card-img-top " style="height:400px" alt="Project Image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <!-- <a href="/projects/<%=project._id%>"> -->
+                                <%= project.name%>
+                            <!-- </a> -->
+                        </h5>
+                        <div class="card-content">
+                            <h6> 
+                                <a  class="pro-link" href="<%=project.live%>">
+                                    <%= project.live%>
+                                </a>
+                            </h6>
+                            <h6> 
+                                <a  class="pro-link" href="<%=project.gitbackend%>">
+                                    <%= project.gitbackend%>
+                                </a>
+                            </h6>
+                                    
+                            <h6> 
+                                <a class="pro-link"  href="<%= project.gitfrontend%>">
+                                    <%= project.gitfrontend%>
+                                </a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardSlideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cardSlideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+<%- include ('./partials/footer.ejs') %>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/scripts/bootstrap.js" defer></script>
+  
+</body>
+</html>

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* navbar */
+.navbar{
+    background-color: #B4A8AA;
+}
+
+.navbar-brand {
+    color: #6A7793;
+} 
+
+.nav-link{
+    color: #6A7793;
+} 
+
+.navbar-brand:hover{
+    color:#CFD1E0;
+}
+
+.nav-link:hover{
+    color:#CFD1E0;
+}
+
+.navbar-toggler{
+    background-color: #D0C9D0;
+    border-color:#B4A8AA;
+    border:2px solid #B4A8AA; 
+    }
+
+#nav-icon{
+    color: black;
+    
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+ /* body */
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #F9F7FA;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.bold-capital{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 300px;
+   color: #D0C9D0;
+}
+.hey, .na{
+text-align: center;
+}
+
+#h, #e, #y, #i,#a, #m, #n, #a2, #b, #i2, #l, #a3, #d, #i3, #g, #o, #u, #r, #d2, #i4{
+    margin: -3px;
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#h, #e, #y, #i, #a, #m{
+    animation: intro 1.4s linear;
+}
+
+#n,#a2,#b,#i2, #l, #a3, #d, #i3, #g, #o, #u, #r, #d2, #i4{
+    animation: intro 2s linear;
+}
+
+@keyframes intro {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%); 
+    }
+  }
+.soft{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:#6A7793;
+}
+.touch{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: #6A7793;
+}
+.get{
+    color: #E48716;
+}
+.em{
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    color: #B4A8AA;
+}
+.em:hover{
+    box-shadow: #6A7793;
+}
+/* about */
+
+.container5{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+    justify-content: center;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 #1d212b;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:#CFD1E0;
+    color: #6A7793;
+  }
+  
+  .flip-card-back {
+    background-color: #B4A8AA;
+    color: #6A7793;
+    transform: rotateY(180deg);
+  }
+.img-abo{
+    width: 100%;
+    height: 100%;
+}
+.about, .work{
+    color: #4b5670;
+}
+.resu{
+    background-color: #4b5670;
+    color: #B4A8AA;
+}
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around; 
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+   background-color: #B4A8AA;
+   /* color: #6A7793; */
+}
+.sp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.fo{
+    margin:0 20px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    color: #6A7793;
+}
+.fo :hover{
+    color:#CFD1E0;
+}
+.des{
+    color: #6A7793;
+    font-size: 18px;
+}
+/* index */
+
+.card{
+  padding: 10px;
+  margin:10px 0  0; 
+  background-color: #6A7793;
+  color: #B4A8AA;
+  text-align: center;
+}
+.card-img-top{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card-title{
+  color: #e3dee5;
+}
+.pro-link{
+  color: #B4A8AA;
+}
+.pro-link:hover{
+  color: #7d8ba8;
+}
+/* https://colorpalettes.net/color-palette-4508/ */
+
