@@ -2,6 +2,8 @@
 const express = require('express');
 const app = express();
 
+PORT=  process.env.PORT || 5000
+
 require('./config/db.connection');
 
 const Project= require('./models/project_model')
@@ -44,6 +46,6 @@ app.get('/projects/:projectId', async(req, res)=>{
 })
 
 
-app.listen(5000, ()=>{
+app.listen(PORT, ()=>{
     console.log("listening on port 5000!");
 })
