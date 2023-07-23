@@ -47,5 +47,5 @@ app.get('/projects/:projectId', async(req, res)=>{
 
 
 app.listen(PORT, ()=>{
-    console.log("listening on port 5000!");
+    console.log(`Listening for client requests on ${PORT}`);
 })
