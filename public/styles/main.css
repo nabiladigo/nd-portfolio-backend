@@ -21,10 +21,10 @@
     color:#CFD1E0;
 }
 
-.navbar-toggler{
+.navbar-toggler, .navbar-toggler-icon{
     background-color: #D0C9D0;
-    border-color:#B4A8AA;
-    border:2px solid #B4A8AA; 
+    /* border-color:#B4A8AA;
+    border:2px solid #B4A8AA;  */
     }
 
 #nav-icon{
@@ -37,6 +37,12 @@
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+.logo{
+  font-size: 1.2rem; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  margin-right:5rem;
+  width: 60px;
 }
  /* body */
 body{
@@ -235,9 +241,12 @@ footer{
   color: #7d8ba8;
 }
 
-@media only screen and(  max-width: 600px){
+@media only screen and(  max-width: 900px){
   .show{
     display: block;
+  }
+  .navbar{
+    padding: 50px;
   }
   .navbar-toggler{
     display: block;
@@ -245,8 +254,10 @@ footer{
   #nav{
     display: none;
     width: 100%;
-    /* border-top: 1px solid #000; */
   }
+body{
+  
+}
 }
 /* https://colorpalettes.net/color-palette-4508/ */
 
