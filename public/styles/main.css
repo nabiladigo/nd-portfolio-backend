@@ -2,6 +2,7 @@
 /* navbar */
 .navbar{
     background-color: #B4A8AA;
+
 }
 
 .navbar-brand {
@@ -206,6 +207,7 @@ footer{
 .des{
     color: #6A7793;
     font-size: 18px;
+    font-weight: 600;
 }
 /* index */
 
@@ -234,8 +236,16 @@ footer{
 }
 
 @media only screen and(  max-width: 600px){
-  body{
-    
+  .show{
+    display: block;
+  }
+  .navbar-toggler{
+    display: block;
+  }
+  #nav{
+    display: none;
+    width: 100%;
+    /* border-top: 1px solid #000; */
   }
 }
 /* https://colorpalettes.net/color-palette-4508/ */

@@ -1,3 +1,14 @@
+function myFunction(){
+    let navbar= document.getElementById('nav');
+    navbar.classList.toggle('show');
+
+
+}
+
+
+
+
+
 // let slideIndex = 0;
 // showSlides();
 // function showSlides() {
