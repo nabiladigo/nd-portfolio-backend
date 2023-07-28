@@ -232,5 +232,11 @@ footer{
 .pro-link:hover{
   color: #7d8ba8;
 }
+
+@media only screen and(  max-width: 600px){
+  body{
+    
+  }
+}
 /* https://colorpalettes.net/color-palette-4508/ */
 
