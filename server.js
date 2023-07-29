@@ -22,6 +22,9 @@ app.get('/about', (req, res)=>{
 app.get('/contact',(req, res)=>{
   res.render('contact.ejs')
 })
+app.get('/resume',(req, res)=>{
+  res.render('resume.ejs')
+})
 app.get('/projects', async(req, res)=>{
   const projects = await Project.find({})
   console.log(projects)
