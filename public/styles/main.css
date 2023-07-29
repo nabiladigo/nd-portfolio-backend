@@ -53,15 +53,9 @@ body{
   justify-content: center;
 }
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     padding: 50px;
-    transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
 }
 
 .bold-capital{
@@ -188,7 +182,7 @@ footer{
     bottom: 0px;
     display: flex;
     justify-content: space-around; 
-    padding: 8px;
+    /* padding: 8px; */
     width: 100%;
     margin: auto;
    background-color: #B4A8AA;
@@ -259,28 +253,23 @@ footer{
   top:0;
   position: fixed;
 }
-.resume{
-  /* width:100%; */
-  padding: 0px;
-  margin: 0px;
-}
-
-.res{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 0px;
+.container-res{
+  margin-bottom: 30px;
 }
 }
 /* Resume */
 
-.res{
-  width: 100%;
-  align-items: center;
+.container-res{
   justify-content: center;
-  padding-left: 250px;
-  margin-left: 50px;
-  margin-top: 20px;
-  /* margin-bottom: 200px; */
+  align-items: center;
+  padding: 30px ;
 }
+.text-three{
+  color: #8091b6;
+}
+.res{
+  margin-top: 20px;
+}
+
 /* https://colorpalettes.net/color-palette-4508/ */
 
